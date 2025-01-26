@@ -27,7 +27,7 @@ produtos: List[Dict[str,any]] = [
 
 @app.get("/") # Request
 def ola_mundo(): # Response
-    return {"Olá": "Mundo2"}
+    return {"Olá": "Mundo"}
 
 
 @app.get("/produtos") # Request
