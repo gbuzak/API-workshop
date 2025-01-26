@@ -10,7 +10,7 @@ def test_ola_mundo_status_code():
     assert response.status_code == 200
     
 
-def teste_ola_mundo_conteudo():
+def test_ola_mundo_conteudo():
     response = client.get("/")
     assert response.json() == {"Olá": "Mundo"}
 
