@@ -12,7 +12,7 @@ def test_ola_mundo():
 
 def teste_ola_mundo_json():
     response = client.get("/")
-    assert response.json() == {"Olá": "Mundo"}
+    assert response.json() == {"Olá": "Mundo2"}
 
 
 def test_listar_produtos_status_code():
